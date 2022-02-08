@@ -23,7 +23,7 @@ from my_lib.my_funcs import *
 
 # COMMAND ----------
 
-# MAGIC %run ./my_lib/my_funcs
+# MAGIC %run ./my_lib/my_funcs   #equivalent to the import 
 
 # COMMAND ----------
 
@@ -52,3 +52,16 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC This is a new markedoan comment
+
+# COMMAND ----------
+
+df.count()
+
+# COMMAND ----------
+
+
